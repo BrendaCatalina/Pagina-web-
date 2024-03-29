@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Documento</title>
+</head>
+<body class="bodyLogins">
+    <div class="container py-5">
+        <form action="" class="formRegistrar d-flex align-items-center" autocomplete="off">
+            <div class="w-100 text-center">
+                <h1><b>REGISTRARSE</b></h1>
+            </div>
+            <div class="inputPersonal">
+                <label for=""><b>Nombre</b></label>
+                <input type="text" id="InputRegistro" class="form-control" placeholder="Ingrese Nombre(s)" required>
+            </div>
+            <div class="inputPersonal">
+                <label for=""><b>Apellidos</b></label>
+                <input type="text" id="InputRegistro" class="form-control" placeholder="Ingrese Apellidos" required>
+            </div>
+            <div class="inputCorreo w-100">
+                <label for=""><b>Correo Electrónico</b></label>
+                <input type="email" id="InputRegistro" class="form-control" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="inputContra">
+                <label for=""><b>Contraseña</b></label>
+                <input type="password" id="inputContra" placeholder="Contraseña" class="form-control" required>  
+            </div>
+            <div class="inputContra">
+                <label for=""><b>Confirmar Contraseña</b></label>
+                <input type="password" id="inputContra" placeholder="Confirmar Contraseña" class="form-control" required>
+            </div>
+            <div class="w-100">
+                <a class="btn btn-primary" id="btnRegistrar" href="index.html">Registrar</a>
+                <!--<button id="btnRegistrar" class="colorBotones"><b>Registrarse</b></button>-->
+            </div>
+        </form>
+    </div>
+    <div id="Iniciar" class="d-flex align-items-center justify-content-center">
+        <b><i>¿Ya tienes una cuenta?</i></b>
+        <a href="Login.html"><i>Iniciar sesión</i></a>
+    </div>
+</body>
+</html>
